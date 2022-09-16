@@ -1,0 +1,52 @@
+{
+  "clientes": [
+    {
+      "nombre": "Maria",
+      "empresa": "Moltdamor",
+      "email": "contacto@cirfaa.com.ar",
+      "telefono": "432423",
+      "notas": "dsadada",
+      "id": 3
+    },
+    {
+      "nombre": "Eugenia",
+      "empresa": "Mongiello ",
+      "email": "santidemierre@gmail.com",
+      "telefono": "442342",
+      "notas": "fsdfsdfsdfsdfsf",
+      "id": 4
+    },
+    {
+      "nombre": "Sub Marquez",
+      "empresa": "Circulo de la Fuerza Aerea",
+      "email": "cirfaa@cirfaa.org.ar",
+      "telefono": "223332222",
+      "notas": "",
+      "id": 5
+    },
+    {
+      "nombre": "Lucas  actualizado",
+      "empresa": "Fuerza Aérea Argetina",
+      "email": "oficinasocios@cirfaa.org.ar",
+      "telefono": "121212",
+      "notas": "Desarrollo web completo ",
+      "id": 6
+    },
+    {
+      "nombre": "Juan",
+      "empresa": "Renovate",
+      "email": "helloespina@gmail.com",
+      "telefono": "2323",
+      "notas": "rfsdfsd",
+      "id": 7
+    },
+    {
+      "nombre": "Julietita",
+      "empresa": "Pequessori",
+      "email": "julie.roson@gmail.com",
+      "telefono": "1242342342",
+      "notas": "Desea hacer una modificación en la página",
+      "id": 8
+    }
+  ]
+}
