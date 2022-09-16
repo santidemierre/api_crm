@@ -34,7 +34,7 @@ const Formulario = ({cliente, cargando}) => {
 
             if(cliente.id) {
                 // Editando un registro - Tiene que ser un metodo PUT
-                const url = `http://localhost:4000/clientes/${cliente.id}`
+                const url = `${import.meta.env.VITE_API_URL}/${cliente.id}`
 
                     respuesta = await fetch(url, {
                     method: 'PUT', // PUT -> Es para actualizar
@@ -46,7 +46,7 @@ const Formulario = ({cliente, cargando}) => {
 
             } else {
                 // Nuevo registro
-                const url = 'http://localhost:4000/clientes' // /cliente es el nombre que le puse en el db.json
+                const url = import.meta.env.VITE_API_URL // /cliente es el nombre que le puse en el db.json
 
                     respuesta = await fetch(url, {
                     method: 'POST', // POST -> Crear nuevo registro
